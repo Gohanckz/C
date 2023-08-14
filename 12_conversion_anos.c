@@ -12,7 +12,7 @@ int main(){
 
     meses = anos*12;
     semanas = meses*4;
-    dias = meses*7;
+    dias = semanas*7;
     horas = dias*24;
 
     printf("Los anos ingresados equivalen a %i meses, %i semanas, %i dias y %i horas.",meses,semanas,dias,horas);
